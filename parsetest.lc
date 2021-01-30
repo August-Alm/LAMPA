@@ -1,0 +1,3 @@
+@ two = \f.\x.(f (f x))
+@ four = ((\m.\n.\g.\y.((m (n g)) y) two) two)
+@ 4 = ((\m.\n.\f.\x.((m (n f)) x) \f.\x.(f (f x))) \f.\x.(f (f x)))
